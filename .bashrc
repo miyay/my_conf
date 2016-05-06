@@ -6,7 +6,6 @@
 source /usr/local/git/contrib/completion/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\[\033[00;33m\]✘ \[\033[00;32m\]\W\[\033[01;34m\]$(__git_ps1)\[\033[00;33m\]✘\[\033[00m\] '
-#export PS1='\[\033[00;32m\]\W\[\033[01;34m\]$(__git_ps1)\[\033[00;33m\]✘\[\033[00;00m\]╹◡╹\[\033[00;33m\]✘\[\033[00m\] '
 
 #デフォルトで使用するエディタの設定
 export EDITOR=vim
